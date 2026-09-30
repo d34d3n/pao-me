@@ -1,0 +1,9 @@
+{
+  "name": "PAO+ME",
+  "short_name": "PAO+ME",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#111111",
+  "description": "Local-first personal finance cockpit"
+}

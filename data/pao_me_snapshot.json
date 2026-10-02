@@ -23,7 +23,7 @@
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
   "essential_used": "0.00",
-  "generated_at": "2026-10-02T16:48:20.117667+00:00",
+  "generated_at": "2026-10-02T17:45:15.957660+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -37,6 +37,53 @@
   "investable_now_reason": "KTB balance 133574.78 - operating buffer 73496.40 - uncovered obligations 27370.16 = 32708.22 available",
   "investable_now_status": "AVAILABLE",
   "ktb_current_balance": "133574.78",
+  "next_obligation_due": {
+    "amount": "13786.34",
+    "date_confidence": "HIGH",
+    "due_date": "2026-10-15",
+    "due_date_status": "CONFIRMED",
+    "expected_date_range": {
+      "end": "2026-10-15",
+      "start": "2026-10-15"
+    },
+    "expected_day": 15,
+    "history_count": 1,
+    "obligation_name": "Central The1",
+    "source_type": "CREDIT_CARD_STATEMENT",
+    "status": "UPCOMING"
+  },
+  "obligations_due_next_30_days": [
+    {
+      "amount": "13786.34",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-15",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-15",
+        "start": "2026-10-15"
+      },
+      "expected_day": 15,
+      "history_count": 1,
+      "obligation_name": "Central The1",
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "13583.82",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 1,
+      "obligation_name": "UOB",
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    }
+  ],
   "observed_spending": "8150.00",
   "operating_buffer": "73496.40",
   "operating_buffer_months": "1.50",
@@ -51,5 +98,177 @@
   "suggested_transfer": "30000.00",
   "transfer_signal": "READY",
   "transfer_signal_reason": "You can transfer 30,000.00 THB to SCB while retaining the configured operating buffer, known near-term obligations, and 2,708.22 THB additional margin.",
-  "uncovered_near_term_obligations": "27370.16"
+  "uncovered_near_term_obligations": "27370.16",
+  "upcoming_annual_obligations": [
+    {
+      "amount_remaining": "26978.40",
+      "amount_reserved": "0.00",
+      "fund_name": "Land tax",
+      "funding_status": "FUNDING",
+      "monthly_provision": "2997.60",
+      "target_amount": "26978.40",
+      "target_date": "2027-06-30"
+    }
+  ],
+  "upcoming_monthly_obligations": [
+    {
+      "amount": "13786.34",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-15",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-15",
+        "start": "2026-10-15"
+      },
+      "expected_day": 15,
+      "history_count": 1,
+      "obligation_name": "Central The1",
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "13583.82",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 1,
+      "obligation_name": "UOB",
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "1388.86",
+      "date_confidence": "MEDIUM",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-19"
+      },
+      "expected_day": 20,
+      "history_count": 2,
+      "obligation_name": "AIS/Internet",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "99.00",
+      "date_confidence": "LOW",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-29",
+        "start": "2026-10-01"
+      },
+      "expected_day": null,
+      "history_count": 3,
+      "obligation_name": "Apple Services",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "5361.41",
+      "date_confidence": "LOW",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-27",
+        "start": "2026-10-08"
+      },
+      "expected_day": null,
+      "history_count": 4,
+      "obligation_name": "Electricity",
+      "source_type": "BANK_TRANSACTION",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "309.23",
+      "date_confidence": "MEDIUM",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-19"
+      },
+      "expected_day": 20,
+      "history_count": 2,
+      "obligation_name": "FINN Mobile",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "750.00",
+      "date_confidence": "MEDIUM",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-06",
+        "start": "2026-10-06"
+      },
+      "expected_day": 6,
+      "history_count": 2,
+      "obligation_name": "Google One",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "1923.86",
+      "date_confidence": "LOW",
+      "due_date": null,
+      "due_date_status": "UNKNOWN",
+      "expected_date_range": null,
+      "expected_day": null,
+      "history_count": 1,
+      "obligation_name": "Internet",
+      "source_type": "BANK_TRANSACTION",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "344.54",
+      "date_confidence": "LOW",
+      "due_date": null,
+      "due_date_status": "UNKNOWN",
+      "expected_date_range": null,
+      "expected_day": null,
+      "history_count": 1,
+      "obligation_name": "Mobile phone",
+      "source_type": "BANK_TRANSACTION",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "699.00",
+      "date_confidence": "MEDIUM",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-12",
+        "start": "2026-10-12"
+      },
+      "expected_day": 12,
+      "history_count": 2,
+      "obligation_name": "OpenAI",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "42.80",
+      "date_confidence": "HIGH",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-25",
+        "start": "2026-10-23"
+      },
+      "expected_day": 24,
+      "history_count": 7,
+      "obligation_name": "Water",
+      "source_type": "CARD_PURCHASE_EVIDENCE",
+      "status": "UPCOMING"
+    }
+  ]
 }

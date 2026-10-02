@@ -19,21 +19,21 @@
     ],
     "operational_month": "2026-10"
   },
-  "discretionary_budget": "13434.57",
+  "discretionary_budget": "15650.90",
   "discretionary_used": "0.00",
   "essential_budget": "5044.21",
   "essential_used": "0.00",
-  "generated_at": "2026-10-02T11:52:40.782033+00:00",
+  "generated_at": "2026-10-02T14:58:42.390594+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
     "committed_run_rate": "33044.21",
-    "discretionary_allowance": "13434.57",
+    "discretionary_allowance": "15650.90",
     "observed_run_rate": "5044.21"
   },
   "income_baseline": "0.00",
   "observed_spending": "0.00",
-  "planning_budget": "49476.38",
+  "planning_budget": "51692.71",
   "review_count": 22,
   "review_items": [
     {

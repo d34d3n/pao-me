@@ -23,7 +23,7 @@
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
   "essential_used": "0.00",
-  "generated_at": "2026-10-02T17:45:15.957660+00:00",
+  "generated_at": "2026-10-02T18:23:05.414597+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -67,6 +67,44 @@
       "obligation_name": "Central The1",
       "source_type": "CREDIT_CARD_STATEMENT",
       "status": "UPCOMING"
+    },
+    {
+      "amount": "961.93",
+      "category": "Digital & Communication",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 2,
+      "obligation_name": "AIS Home Internet",
+      "provider": "AIS",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Home Internet"
+    },
+    {
+      "amount": "426.93",
+      "category": "Digital & Communication",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 1,
+      "obligation_name": "AIS Mobile",
+      "provider": "AIS",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Mobile"
     },
     {
       "amount": "13583.82",
@@ -127,6 +165,44 @@
       "status": "UPCOMING"
     },
     {
+      "amount": "961.93",
+      "category": "Digital & Communication",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 2,
+      "obligation_name": "AIS Home Internet",
+      "provider": "AIS",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Home Internet"
+    },
+    {
+      "amount": "426.93",
+      "category": "Digital & Communication",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 1,
+      "obligation_name": "AIS Mobile",
+      "provider": "AIS",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Mobile"
+    },
+    {
       "amount": "13583.82",
       "date_confidence": "HIGH",
       "due_date": "2026-10-20",
@@ -142,37 +218,43 @@
       "status": "UPCOMING"
     },
     {
-      "amount": "1388.86",
+      "amount": "699.00",
+      "category": "Digital & Communication",
       "date_confidence": "MEDIUM",
       "due_date": null,
       "due_date_status": "EXPECTED",
       "expected_date_range": {
-        "end": "2026-10-20",
-        "start": "2026-10-19"
+        "end": "2026-10-12",
+        "start": "2026-10-12"
       },
-      "expected_day": 20,
+      "expected_day": 12,
       "history_count": 2,
-      "obligation_name": "AIS/Internet",
-      "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
+      "obligation_name": "ChatGPT",
+      "provider": "OpenAI",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "AI Subscription"
     },
     {
-      "amount": "99.00",
+      "amount": null,
+      "category": "Entertainment",
       "date_confidence": "LOW",
       "due_date": null,
-      "due_date_status": "EXPECTED",
-      "expected_date_range": {
-        "end": "2026-10-29",
-        "start": "2026-10-01"
-      },
+      "due_date_status": "UNKNOWN",
+      "expected_date_range": null,
       "expected_day": null,
-      "history_count": 3,
-      "obligation_name": "Apple Services",
-      "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
+      "history_count": 0,
+      "obligation_name": "Disney+",
+      "provider": "Disney",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Streaming Subscription"
     },
     {
       "amount": "5361.41",
+      "category": "Housing",
       "date_confidence": "LOW",
       "due_date": null,
       "due_date_status": "EXPECTED",
@@ -183,11 +265,15 @@
       "expected_day": null,
       "history_count": 4,
       "obligation_name": "Electricity",
+      "provider": "MEA",
+      "recurring": true,
       "source_type": "BANK_TRANSACTION",
-      "status": "UPCOMING"
+      "status": "UPCOMING",
+      "subcategory": "Utilities"
     },
     {
       "amount": "309.23",
+      "category": "Digital & Communication",
       "date_confidence": "MEDIUM",
       "due_date": null,
       "due_date_status": "EXPECTED",
@@ -198,11 +284,15 @@
       "expected_day": 20,
       "history_count": 2,
       "obligation_name": "FINN Mobile",
-      "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
+      "provider": "FINN",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Mobile"
     },
     {
       "amount": "750.00",
+      "category": "Digital & Communication",
       "date_confidence": "MEDIUM",
       "due_date": null,
       "due_date_status": "EXPECTED",
@@ -213,50 +303,15 @@
       "expected_day": 6,
       "history_count": 2,
       "obligation_name": "Google One",
-      "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
-    },
-    {
-      "amount": "1923.86",
-      "date_confidence": "LOW",
-      "due_date": null,
-      "due_date_status": "UNKNOWN",
-      "expected_date_range": null,
-      "expected_day": null,
-      "history_count": 1,
-      "obligation_name": "Internet",
-      "source_type": "BANK_TRANSACTION",
-      "status": "UPCOMING"
-    },
-    {
-      "amount": "344.54",
-      "date_confidence": "LOW",
-      "due_date": null,
-      "due_date_status": "UNKNOWN",
-      "expected_date_range": null,
-      "expected_day": null,
-      "history_count": 1,
-      "obligation_name": "Mobile phone",
-      "source_type": "BANK_TRANSACTION",
-      "status": "UPCOMING"
-    },
-    {
-      "amount": "699.00",
-      "date_confidence": "MEDIUM",
-      "due_date": null,
-      "due_date_status": "EXPECTED",
-      "expected_date_range": {
-        "end": "2026-10-12",
-        "start": "2026-10-12"
-      },
-      "expected_day": 12,
-      "history_count": 2,
-      "obligation_name": "OpenAI",
-      "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
+      "provider": "Google",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Cloud Storage"
     },
     {
       "amount": "42.80",
+      "category": "Utilities",
       "date_confidence": "HIGH",
       "due_date": null,
       "due_date_status": "EXPECTED",
@@ -267,8 +322,30 @@
       "expected_day": 24,
       "history_count": 7,
       "obligation_name": "Water",
+      "provider": "MWA",
+      "recurring": true,
       "source_type": "CARD_PURCHASE_EVIDENCE",
-      "status": "UPCOMING"
+      "status": "UPCOMING",
+      "subcategory": "Water"
+    },
+    {
+      "amount": "99.00",
+      "category": "Digital & Communication",
+      "date_confidence": "LOW",
+      "due_date": null,
+      "due_date_status": "EXPECTED",
+      "expected_date_range": {
+        "end": "2026-10-29",
+        "start": "2026-10-01"
+      },
+      "expected_day": null,
+      "history_count": 3,
+      "obligation_name": "iCloud",
+      "provider": "Apple",
+      "recurring": true,
+      "source_type": "CONFIG",
+      "status": "UPCOMING",
+      "subcategory": "Cloud Storage"
     }
   ]
 }

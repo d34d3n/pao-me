@@ -1,0 +1,204 @@
+{
+  "alerts": [
+    "2026-10 data: PARTIAL",
+    "No live transactions yet",
+    "22 item(s) need review"
+  ],
+  "committed_run_rate": "33044.21",
+  "data_coverage": {
+    "label": "2026-10 data: PARTIAL",
+    "reference": "Jun-Aug 2026 historical baseline",
+    "status": "PARTIAL",
+    "transactions_observed": 0
+  },
+  "data_period": {
+    "historical_reference_months": [
+      "2026-06",
+      "2026-07",
+      "2026-08"
+    ],
+    "operational_month": "2026-10"
+  },
+  "discretionary_budget": "13434.57",
+  "discretionary_used": "0.00",
+  "essential_budget": "5044.21",
+  "essential_used": "0.00",
+  "generated_at": "2026-10-02T11:52:40.782033+00:00",
+  "gov_liability": "0.00",
+  "gov_receivable": "0.00",
+  "historical_baseline": {
+    "committed_run_rate": "33044.21",
+    "discretionary_allowance": "13434.57",
+    "observed_run_rate": "5044.21"
+  },
+  "income_baseline": "0.00",
+  "observed_spending": "0.00",
+  "planning_budget": "49476.38",
+  "review_count": 22,
+  "review_items": [
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    },
+    {
+      "amount": "0.00",
+      "date": "",
+      "financial_treatment": "OTHER",
+      "label": "Review item",
+      "reason": "fallback_review",
+      "source": "slip"
+    }
+  ],
+  "safe_to_spend": "0.00",
+  "safe_to_spend_formula": "max(0, income_baseline - committed_run_rate - sinking_required - discretionary_used)",
+  "sinking_required": "2997.60",
+  "sinking_reserved": "0.00"
+}

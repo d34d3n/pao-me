@@ -1,47 +1,31 @@
-# PAO+ME MVP v1 — Local-first PWA
+# PAO+ME MVP v1.1 — Baseline Sprint
 
-เป้าหมาย: แอปมือถือสำหรับดูงบ, review เฉพาะรายการที่ไม่ชัด, Sinking Fund และ Gov Clearing โดยไม่ต้องเปิดคอมทุกวันหลัง deploy แล้ว
+เป้าหมายของ v1.1 คือเปลี่ยนจาก demo dashboard เป็น baseline ที่ยึดข้อมูลจริง มิ.ย.–ส.ค. 2026 และ operating model ที่ตกลงกัน
 
-## Scope Freeze v1
+## Operating model
+- KTB = Operating Account: เงินเข้า/QR/โอน/ชำระบัตร
+- UOB = Card consumption + official reimbursable spending
+- The 1 = Online/app/7-Eleven/marketplace consumption
+- SCB = Treasury: investment/reserve/sinking fund; ไม่มี external merchant spending
+- Gov Clearing = virtual ledger สำหรับ advance / reimbursable / reimbursement / return of unused advance
 
-มี 3 หน้าหลักเท่านั้น
-1. Home — Essential / Discretionary / Sinking Fund / Gov Clearing / Safe-to-Spend
-2. Review Inbox — ถามเฉพาะรายการที่ระบบไม่มั่นใจ
-3. Monthly Review — สรุปเดือน + subscription review
+## Planning baseline
+- Baseline income: 120,000 THB/month
+- Essential: 45,000
+- Discretionary: 12,000
+- Sinking funds: 12,000
+- Planned future capital: 51,000
 
-ไม่รวมใน v1: portfolio optimization, tax planning, OCR engine เต็มรูปแบบ, bank API, prediction ขั้นสูง
+Subscriptions are not a fourth budget bucket. Each subscription is classified into Essential or Discretionary to avoid double-counting.
 
-## Financial Operating Model
+## Evidence caveat
+Historical Jun–Aug cards are evidence views, not complete household accounting. Missing/unresolved transactions remain separate. June has identifiable large one-offs; August electricity included roughly two months and is normalized to ~5,500/month in planning.
 
-- KTB = Operating Account: เงินเข้า-ออกประจำวัน, QR/transfer, จ่ายบัตร
-- UOB = Card spending (offline/retail/restaurant) + official reimbursable spending
-- The 1 = Online/app/7-Eleven/marketplace spending
-- SCB = Treasury: reserve, investment, money waiting to invest, sinking funds; ไม่จ่าย merchant ภายนอกโดยตรง
-- Gov Clearing = virtual ledger สำหรับ government advance / official reimbursable expense / reimbursement / return of unused advance
+## Deployment update
+Upload/overwrite these files in the GitHub `pao-me` repository root:
+- app.js
+- data.js
+- sw.js
+- README.md
 
-## Run locally for testing
-
-จากโฟลเดอร์นี้:
-
-```bash
-python3 -m http.server 8080
-```
-
-เปิด http://localhost:8080
-
-> การทดสอบ local ต้องเปิดคอม แต่การใช้งานจริงไม่จำเป็นต้องเปิดคอมทุกวันเมื่อ deploy เป็น static PWA แล้ว
-
-## Free deployment (recommended after test)
-
-ใช้ static hosting ฟรี เช่น GitHub Pages หรือ Cloudflare Pages แล้ว Add to Home Screen บนมือถือ
-
-แอปนี้ไม่มี backend และเก็บข้อมูลใน browser localStorage สำหรับ MVP ดังนั้นไม่มีค่า server รายเดือน แต่ควร export backup เป็นระยะ
-
-## Sprint Definition of Done
-
-- เปิดจากมือถือได้
-- Dashboard แสดง Used / Budget / Remaining
-- Review item ได้ด้วย 1 tap
-- Gov notes ถูก map ด้วย rule-based parser เบื้องต้น
-- Card settlement / internal transfer / investment movement ไม่ถูกนับซ้ำเป็น expense
-- Monthly review ใช้เวลาไม่เกิน 5–10 นาที
+GitHub Pages will redeploy automatically. If an installed PWA still shows the old version, fully close it and reopen; the new service worker cache is `pao-me-v1-1`.

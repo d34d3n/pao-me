@@ -23,7 +23,7 @@
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
   "essential_used": "0.00",
-  "generated_at": "2026-10-02T18:23:05.414597+00:00",
+  "generated_at": "2026-10-03T14:29:43.337022+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -32,9 +32,9 @@
     "observed_run_rate": "5044.21"
   },
   "income_baseline": "119215.74",
-  "investable_now": "32708.22",
+  "investable_now": "23115.45",
   "investable_now_confidence": "HIGH",
-  "investable_now_reason": "KTB balance 133574.78 - operating buffer 73496.40 - uncovered obligations 27370.16 = 32708.22 available",
+  "investable_now_reason": "KTB balance 133574.78 - operating buffer 83089.17 - uncovered obligations 27370.16 = 23115.45 available",
   "investable_now_status": "AVAILABLE",
   "ktb_current_balance": "133574.78",
   "next_obligation_due": {
@@ -123,29 +123,56 @@
     }
   ],
   "observed_spending": "8150.00",
-  "operating_buffer": "73496.40",
+  "operating_buffer": "83089.17",
   "operating_buffer_months": "1.50",
-  "planning_budget": "48997.60",
-  "remaining_margin_after_transfer": "2708.22",
+  "planning_budget": "55392.78",
+  "remaining_margin_after_transfer": "3115.45",
   "review_count": 0,
   "review_items": [],
-  "safe_to_spend": "82218.14",
+  "safe_to_spend": "75822.96",
   "safe_to_spend_formula": "max(0, income_baseline - committed_run_rate - sinking_required - discretionary_used)",
-  "sinking_required": "2997.60",
+  "sinking_required": "9392.78",
   "sinking_reserved": "0.00",
-  "suggested_transfer": "30000.00",
-  "transfer_signal": "READY",
-  "transfer_signal_reason": "You can transfer 30,000.00 THB to SCB while retaining the configured operating buffer, known near-term obligations, and 2,708.22 THB additional margin.",
+  "suggested_transfer": "20000.00",
+  "transfer_signal": "WAIT",
+  "transfer_signal_reason": "Keep cash in KTB for now.",
   "uncovered_near_term_obligations": "27370.16",
   "upcoming_annual_obligations": [
     {
+      "amount_remaining": "49820.40",
+      "amount_reserved": "0.00",
+      "fund_name": "AIA Life Insurance Premium 1",
+      "funding_status": "FUNDING",
+      "monthly_provision": "4151.70",
+      "target_amount": "49820.40",
+      "target_date": "2027-05-28"
+    },
+    {
+      "amount_remaining": "17194.50",
+      "amount_reserved": "0.00",
+      "fund_name": "AIA Life Insurance Premium 2",
+      "funding_status": "FUNDING",
+      "monthly_provision": "1432.88",
+      "target_amount": "17194.50",
+      "target_date": "2026-12-17"
+    },
+    {
       "amount_remaining": "26978.40",
       "amount_reserved": "0.00",
-      "fund_name": "Land tax",
+      "fund_name": "Land / Property Tax",
       "funding_status": "FUNDING",
-      "monthly_provision": "2997.60",
+      "monthly_provision": "2248.20",
       "target_amount": "26978.40",
       "target_date": "2027-06-30"
+    },
+    {
+      "amount_remaining": "18720.00",
+      "amount_reserved": "0.00",
+      "fund_name": "The Terrace Tha Kham Common Area Fee",
+      "funding_status": "FUNDING",
+      "monthly_provision": "1560.00",
+      "target_amount": "18720.00",
+      "target_date": "2027-02-28"
     }
   ],
   "upcoming_monthly_obligations": [

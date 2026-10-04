@@ -4,6 +4,38 @@
   ],
   "committed_and_essential_budget": "34000.00",
   "committed_and_essential_used": "8150.00",
+  "committed_categories": [
+    {
+      "actual_used": "0.00",
+      "category_id": "housing",
+      "label": "Housing & Utilities — บ้านและสาธารณูปโภค",
+      "monthly_allocation": null
+    },
+    {
+      "actual_used": "8150.00",
+      "category_id": "health",
+      "label": "Health & Care — สุขภาพและการดูแล",
+      "monthly_allocation": "8000.00"
+    },
+    {
+      "actual_used": "0.00",
+      "category_id": "family",
+      "label": "Family & Education Support — ครอบครัวและการศึกษา",
+      "monthly_allocation": "20000.00"
+    },
+    {
+      "actual_used": "0.00",
+      "category_id": "digital",
+      "label": "Digital & Communication — ดิจิทัลและการสื่อสาร",
+      "monthly_allocation": null
+    },
+    {
+      "actual_used": "0.00",
+      "category_id": "transport",
+      "label": "Transport & Mobility — การเดินทาง",
+      "monthly_allocation": null
+    }
+  ],
   "committed_run_rate": "34000.00",
   "data_coverage": {
     "label": "2026-10 data: PARTIAL",
@@ -23,7 +55,7 @@
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
   "essential_used": "0.00",
-  "generated_at": "2026-10-03T14:29:43.337022+00:00",
+  "generated_at": "2026-10-04T02:02:47.364940+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -32,9 +64,9 @@
     "observed_run_rate": "5044.21"
   },
   "income_baseline": "119215.74",
-  "investable_now": "23115.45",
+  "investable_now": "37204.62",
   "investable_now_confidence": "HIGH",
-  "investable_now_reason": "KTB balance 133574.78 - operating buffer 83089.17 - uncovered obligations 27370.16 = 23115.45 available",
+  "investable_now_reason": "KTB balance 133574.78 - operating buffer 69000.00 - uncovered obligations 27370.16 = 37204.62 available",
   "investable_now_status": "AVAILABLE",
   "ktb_current_balance": "133574.78",
   "next_obligation_due": {
@@ -123,56 +155,211 @@
     }
   ],
   "observed_spending": "8150.00",
-  "operating_buffer": "83089.17",
+  "operating_buffer": "69000.00",
   "operating_buffer_months": "1.50",
-  "planning_budget": "55392.78",
-  "remaining_margin_after_transfer": "3115.45",
+  "payment_alerts": [
+    {
+      "amount": "13786.34",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-15",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-15",
+        "start": "2026-10-15"
+      },
+      "expected_day": 15,
+      "history_count": 1,
+      "obligation_name": "Central The One",
+      "recurring_payment_day": 15,
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    },
+    {
+      "amount": "13583.82",
+      "date_confidence": "HIGH",
+      "due_date": "2026-10-20",
+      "due_date_status": "CONFIRMED",
+      "expected_date_range": {
+        "end": "2026-10-20",
+        "start": "2026-10-20"
+      },
+      "expected_day": 20,
+      "history_count": 1,
+      "obligation_name": "UOB",
+      "recurring_payment_day": 20,
+      "source_type": "CREDIT_CARD_STATEMENT",
+      "status": "UPCOMING"
+    }
+  ],
+  "planning_budget": "46000.00",
+  "portfolio_balance": {
+    "classification_coverage_pct": 100.0,
+    "coverage": "MAPPED",
+    "insight": "Most current mapped spending is Protect-oriented / เงินใช้ในงวดนี้ที่ระบุพอร์ตได้ส่วนใหญ่เป็นการปกป้องฐานชีวิต",
+    "known_portfolio_amount": "8150.00",
+    "matrix": [
+      {
+        "cells": {
+          "EXPLORE": "0.00",
+          "IMPROVE": "0.00",
+          "INVEST": "0.00",
+          "PROTECT": "0.00"
+        },
+        "work_mode": "KEEP"
+      },
+      {
+        "cells": {
+          "EXPLORE": "0.00",
+          "IMPROVE": "0.00",
+          "INVEST": "0.00",
+          "PROTECT": "8150.00"
+        },
+        "work_mode": "PARTNER"
+      },
+      {
+        "cells": {
+          "EXPLORE": "0.00",
+          "IMPROVE": "0.00",
+          "INVEST": "0.00",
+          "PROTECT": "0.00"
+        },
+        "work_mode": "SHARE"
+      },
+      {
+        "cells": {
+          "EXPLORE": "0.00",
+          "IMPROVE": "0.00",
+          "INVEST": "0.00",
+          "PROTECT": "0.00"
+        },
+        "work_mode": "SOURCE"
+      }
+    ],
+    "matrix_unknown_amount": "0.00",
+    "period": "2026-10",
+    "portfolios": [
+      {
+        "amount": "8150.00",
+        "guidance_max": 70,
+        "guidance_min": 50,
+        "portfolio": "PROTECT",
+        "status": "WATCH",
+        "usage_pct": 100.0
+      },
+      {
+        "amount": "0.00",
+        "guidance_max": 30,
+        "guidance_min": 15,
+        "portfolio": "INVEST",
+        "status": "OPPORTUNITY",
+        "usage_pct": 0.0
+      },
+      {
+        "amount": "0.00",
+        "guidance_max": 15,
+        "guidance_min": 5,
+        "portfolio": "IMPROVE",
+        "status": "OPPORTUNITY",
+        "usage_pct": 0.0
+      },
+      {
+        "amount": "0.00",
+        "guidance_max": 10,
+        "guidance_min": 0,
+        "portfolio": "EXPLORE",
+        "status": "BALANCED",
+        "usage_pct": 0.0
+      }
+    ],
+    "records": [
+      {
+        "amount": "8150.00",
+        "portfolio": "PROTECT",
+        "source": "slip",
+        "source_id": 99,
+        "work_mode": "PARTNER"
+      }
+    ],
+    "total_outflows": "8150.00",
+    "unknown_amount": "0.00"
+  },
+  "remaining_margin_after_transfer": "2204.62",
   "review_count": 0,
   "review_items": [],
-  "safe_to_spend": "75822.96",
+  "safe_to_spend": "85215.74",
   "safe_to_spend_formula": "max(0, income_baseline - committed_run_rate - sinking_required - discretionary_used)",
-  "sinking_required": "9392.78",
-  "sinking_reserved": "0.00",
-  "suggested_transfer": "20000.00",
-  "transfer_signal": "WAIT",
-  "transfer_signal_reason": "Keep cash in KTB for now.",
+  "sinking_annualized_monthly_equivalent": "9392.78",
+  "sinking_fund_summary": {
+    "funding_status": "FULLY_FUNDED",
+    "next_cycle_provision": "9392.78",
+    "remaining_to_fund": "0.00",
+    "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+    "reserved_amount": "112713.30",
+    "source_account": "SCB",
+    "target_amount": "112713.30"
+  },
+  "sinking_funding_status": "FULLY_FUNDED",
+  "sinking_remaining_to_fund": "0.00",
+  "sinking_required": "0.00",
+  "sinking_reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+  "sinking_reserved": "112713.30",
+  "sinking_target_amount": "112713.30",
+  "suggested_transfer": "35000.00",
+  "transfer_signal": "READY",
+  "transfer_signal_reason": "You can transfer 35,000.00 THB to SCB while retaining the configured operating buffer, known near-term obligations, and 2,204.62 THB additional margin.",
   "uncovered_near_term_obligations": "27370.16",
   "upcoming_annual_obligations": [
     {
-      "amount_remaining": "49820.40",
-      "amount_reserved": "0.00",
+      "amount_remaining": "0.00",
+      "amount_reserved": "49820.40",
       "fund_name": "AIA Life Insurance Premium 1",
-      "funding_status": "FUNDING",
+      "funding_status": "FULLY_FUNDED",
       "monthly_provision": "4151.70",
+      "portfolio": "PROTECT",
+      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
       "target_amount": "49820.40",
-      "target_date": "2027-05-28"
+      "target_date": "2027-05-28",
+      "target_month": null,
+      "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "17194.50",
-      "amount_reserved": "0.00",
+      "amount_remaining": "0.00",
+      "amount_reserved": "17194.50",
       "fund_name": "AIA Life Insurance Premium 2",
-      "funding_status": "FUNDING",
+      "funding_status": "FULLY_FUNDED",
       "monthly_provision": "1432.88",
+      "portfolio": "PROTECT",
+      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
       "target_amount": "17194.50",
-      "target_date": "2026-12-17"
+      "target_date": "2026-12-17",
+      "target_month": null,
+      "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "26978.40",
-      "amount_reserved": "0.00",
+      "amount_remaining": "0.00",
+      "amount_reserved": "26978.40",
       "fund_name": "Land / Property Tax",
-      "funding_status": "FUNDING",
+      "funding_status": "FULLY_FUNDED",
       "monthly_provision": "2248.20",
+      "portfolio": "PROTECT",
+      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
       "target_amount": "26978.40",
-      "target_date": "2027-06-30"
+      "target_date": "2027-06-30",
+      "target_month": null,
+      "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "18720.00",
-      "amount_reserved": "0.00",
+      "amount_remaining": "0.00",
+      "amount_reserved": "18720.00",
       "fund_name": "The Terrace Tha Kham Common Area Fee",
-      "funding_status": "FUNDING",
+      "funding_status": "FULLY_FUNDED",
       "monthly_provision": "1560.00",
+      "portfolio": "PROTECT",
+      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
       "target_amount": "18720.00",
-      "target_date": "2027-02-28"
+      "target_date": "2027-02-28",
+      "target_month": 2,
+      "work_mode": "SOURCE"
     }
   ],
   "upcoming_monthly_obligations": [

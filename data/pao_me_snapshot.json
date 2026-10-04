@@ -55,7 +55,7 @@
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
   "essential_used": "0.00",
-  "generated_at": "2026-10-04T02:02:47.364940+00:00",
+  "generated_at": "2026-10-04T04:50:50.054727+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -64,9 +64,9 @@
     "observed_run_rate": "5044.21"
   },
   "income_baseline": "119215.74",
-  "investable_now": "37204.62",
+  "investable_now": "23115.45",
   "investable_now_confidence": "HIGH",
-  "investable_now_reason": "KTB balance 133574.78 - operating buffer 69000.00 - uncovered obligations 27370.16 = 37204.62 available",
+  "investable_now_reason": "KTB balance 133574.78 - operating buffer 83089.17 - uncovered obligations 27370.16 = 23115.45 available",
   "investable_now_status": "AVAILABLE",
   "ktb_current_balance": "133574.78",
   "next_obligation_due": {
@@ -155,7 +155,7 @@
     }
   ],
   "observed_spending": "8150.00",
-  "operating_buffer": "69000.00",
+  "operating_buffer": "83089.17",
   "operating_buffer_months": "1.50",
   "payment_alerts": [
     {
@@ -191,7 +191,7 @@
       "status": "UPCOMING"
     }
   ],
-  "planning_budget": "46000.00",
+  "planning_budget": "55392.78",
   "portfolio_balance": {
     "classification_coverage_pct": 100.0,
     "coverage": "MAPPED",
@@ -283,79 +283,575 @@
     "total_outflows": "8150.00",
     "unknown_amount": "0.00"
   },
-  "remaining_margin_after_transfer": "2204.62",
+  "remaining_margin_after_transfer": "3115.45",
+  "resource_plan": {
+    "income_baseline": "119215.74",
+    "insights": [
+      "Tier 1 uses 6.8% of planned income / Tier 1 ใช้ 6.8% ของรายได้ตามแผน",
+      "Family support represents 100.0% of Tier 1 / สนับสนุนครอบครัวคิดเป็น 100.0% ของ Tier 1",
+      "฿63822.96 remains unallocated for future, capability or quality-of-life choices / ยังมีงบไม่ได้แบ่งสำหรับอนาคต ศักยภาพ หรือคุณภาพชีวิต"
+    ],
+    "official_transactions": [],
+    "payment_obligations": [
+      {
+        "amount": "13786.34",
+        "date_confidence": "HIGH",
+        "due_date": "2026-10-15",
+        "due_date_status": "CONFIRMED",
+        "expected_date_range": {
+          "end": "2026-10-15",
+          "start": "2026-10-15"
+        },
+        "expected_day": 15,
+        "history_count": 1,
+        "obligation_name": "Central The One",
+        "recurring_payment_day": 15,
+        "source_type": "CREDIT_CARD_STATEMENT",
+        "status": "UPCOMING"
+      },
+      {
+        "amount": "13583.82",
+        "date_confidence": "HIGH",
+        "due_date": "2026-10-20",
+        "due_date_status": "CONFIRMED",
+        "expected_date_range": {
+          "end": "2026-10-20",
+          "start": "2026-10-20"
+        },
+        "expected_day": 20,
+        "history_count": 1,
+        "obligation_name": "UOB",
+        "recurring_payment_day": 20,
+        "source_type": "CREDIT_CARD_STATEMENT",
+        "status": "UPCOMING"
+      }
+    ],
+    "period": "2026-10",
+    "sinking_funds": [
+      {
+        "annual_target": "49820.40",
+        "current_month_allocation": "4151.70",
+        "current_reserved_balance": "4151.70",
+        "fund_name": "AIA Life Insurance Premium 1",
+        "monthly_required": "4151.70",
+        "next_due": "2027-05-28",
+        "opening_reserved": "0.00",
+        "paid_current_month": "0.00",
+        "paid_this_cycle": "0.00",
+        "status": "FUNDED_THIS_MONTH",
+        "target_month": null
+      },
+      {
+        "annual_target": "17194.50",
+        "current_month_allocation": "1432.88",
+        "current_reserved_balance": "1432.88",
+        "fund_name": "AIA Life Insurance Premium 2",
+        "monthly_required": "1432.88",
+        "next_due": "2026-12-17",
+        "opening_reserved": "0.00",
+        "paid_current_month": "0.00",
+        "paid_this_cycle": "0.00",
+        "status": "FUNDED_THIS_MONTH",
+        "target_month": null
+      },
+      {
+        "annual_target": "26978.40",
+        "current_month_allocation": "2248.20",
+        "current_reserved_balance": "2248.20",
+        "fund_name": "Land / Property Tax",
+        "monthly_required": "2248.20",
+        "next_due": "2027-06-30",
+        "opening_reserved": "0.00",
+        "paid_current_month": "0.00",
+        "paid_this_cycle": "0.00",
+        "status": "FUNDED_THIS_MONTH",
+        "target_month": null
+      },
+      {
+        "annual_target": "18720.00",
+        "current_month_allocation": "1560.00",
+        "current_reserved_balance": "1560.00",
+        "fund_name": "The Terrace Tha Kham Common Area Fee",
+        "monthly_required": "1560.00",
+        "next_due": "2027-02-28",
+        "opening_reserved": "0.00",
+        "paid_current_month": "0.00",
+        "paid_this_cycle": "0.00",
+        "status": "FUNDED_THIS_MONTH",
+        "target_month": 2
+      }
+    ],
+    "tiers": [
+      {
+        "actual_paid": "8150.00",
+        "budget_allocation": "34000.00",
+        "groups": [
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "housing",
+            "items": [],
+            "label": "Housing & Utilities — บ้านและสาธารณูปโภค",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "food",
+            "items": [],
+            "label": "Food & Daily Living — อาหารและชีวิตประจำวัน",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "transport",
+            "items": [],
+            "label": "Transport & Mobility — การเดินทาง",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "digital",
+            "items": [],
+            "label": "Digital & Communication — ดิจิทัลและการสื่อสาร",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "8150.00",
+            "budget_allocation": "28000.00",
+            "group_id": "family",
+            "items": [
+              {
+                "actual_paid": "8150.00",
+                "beneficiary": "MOTHER",
+                "budget_allocation": "8000.00",
+                "portfolio": "PROTECT",
+                "remaining_available": "-150.00",
+                "reserved_allocation": "0.00",
+                "subcategory": "Mother Caregiver — ผู้ดูแลแม่",
+                "transactions": [
+                  {
+                    "amount": "8150.00",
+                    "beneficiary": "MOTHER",
+                    "date": "2026-10-02",
+                    "financial_treatment": "FAMILY_SUPPORT",
+                    "label": "(IORSWT)                            004-1022273874",
+                    "original_category": "Health & Care",
+                    "original_subcategory": "Elder Care",
+                    "source": "slip",
+                    "source_id": 99
+                  }
+                ],
+                "usage_pct": 101.9
+              },
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "YOUNGER_DAUGHTER",
+                "budget_allocation": "10000.00",
+                "portfolio": "PROTECT",
+                "remaining_available": "10000.00",
+                "reserved_allocation": "0.00",
+                "subcategory": "Core Family Support — สนับสนุนครอบครัว",
+                "transactions": [],
+                "usage_pct": 0.0
+              },
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "OLDER_DAUGHTER",
+                "budget_allocation": "10000.00",
+                "portfolio": "PROTECT",
+                "remaining_available": "10000.00",
+                "reserved_allocation": "0.00",
+                "subcategory": "Core Family Support — สนับสนุนครอบครัว",
+                "transactions": [],
+                "usage_pct": 0.0
+              }
+            ],
+            "label": "Family Support — สนับสนุนครอบครัว",
+            "remaining_available": "19850.00",
+            "reserved_allocation": "0.00",
+            "usage_pct": 29.1
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": "6000.00",
+            "group_id": "essential_unassigned",
+            "items": [
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "UNKNOWN",
+                "budget_allocation": "6000.00",
+                "portfolio": null,
+                "remaining_available": "6000.00",
+                "reserved_allocation": "0.00",
+                "subcategory": "Essential allocation — งบจำเป็นรวม",
+                "transactions": [],
+                "usage_pct": 0.0
+              }
+            ],
+            "label": "Unassigned essentials — งบจำเป็นที่ยังไม่แบ่ง",
+            "remaining_available": "6000.00",
+            "reserved_allocation": "0.00",
+            "usage_pct": 0.0
+          }
+        ],
+        "label": "Tier 1 — Subsistence / Protect",
+        "remaining_available": "25850.00",
+        "reserved_allocation": "0.00",
+        "subtitle": "อยู่ได้ ทำงานได้ ดูแลครอบครัวได้",
+        "tier": "TIER_1",
+        "usage_pct": 24.0
+      },
+      {
+        "actual_paid": "0.00",
+        "budget_allocation": "9392.78",
+        "groups": [
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": "9392.78",
+            "group_id": "sinking",
+            "items": [
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "HOUSEHOLD",
+                "budget_allocation": "4151.70",
+                "portfolio": "PROTECT",
+                "remaining_available": "0.00",
+                "reserved_allocation": "4151.70",
+                "subcategory": "AIA Life Insurance Premium 1",
+                "transactions": [],
+                "usage_pct": 0.0
+              },
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "HOUSEHOLD",
+                "budget_allocation": "1432.88",
+                "portfolio": "PROTECT",
+                "remaining_available": "0.00",
+                "reserved_allocation": "1432.88",
+                "subcategory": "AIA Life Insurance Premium 2",
+                "transactions": [],
+                "usage_pct": 0.0
+              },
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "HOUSEHOLD",
+                "budget_allocation": "2248.20",
+                "portfolio": "PROTECT",
+                "remaining_available": "0.00",
+                "reserved_allocation": "2248.20",
+                "subcategory": "Land / Property Tax",
+                "transactions": [],
+                "usage_pct": 0.0
+              },
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "HOUSEHOLD",
+                "budget_allocation": "1560.00",
+                "portfolio": "PROTECT",
+                "remaining_available": "0.00",
+                "reserved_allocation": "1560.00",
+                "subcategory": "The Terrace Tha Kham Common Area Fee",
+                "transactions": [],
+                "usage_pct": 0.0
+              }
+            ],
+            "label": "Sinking Funds — เงินกันสำหรับรายจ่ายก้อนในอนาคต",
+            "remaining_available": "0.00",
+            "reserved_allocation": "9392.78",
+            "usage_pct": 0.0
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "investments",
+            "items": [],
+            "label": "Long-term Investments — ลงทุนระยะยาว",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "insurance",
+            "items": [],
+            "label": "Insurance & Taxes — ประกันและภาษี",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "maintenance",
+            "items": [],
+            "label": "Home Maintenance — บำรุงรักษาบ้าน",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "preventive",
+            "items": [],
+            "label": "Preventive Health — สุขภาพเชิงป้องกัน",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "education",
+            "items": [],
+            "label": "Education & Capability — การศึกษาและศักยภาพ",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "productivity",
+            "items": [],
+            "label": "Productivity Tools — เครื่องมือเพิ่มประสิทธิภาพ",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          }
+        ],
+        "label": "Tier 2 — Sustainability / Invest & Improve",
+        "remaining_available": "0.00",
+        "reserved_allocation": "9392.78",
+        "subtitle": "ลดความเสี่ยง สร้างอนาคต เพิ่มศักยภาพ",
+        "tier": "TIER_2",
+        "usage_pct": 0.0
+      },
+      {
+        "actual_paid": "0.00",
+        "budget_allocation": "12000.00",
+        "groups": [
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "travel",
+            "items": [],
+            "label": "Travel — ท่องเที่ยว",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "dining",
+            "items": [],
+            "label": "Dining & Social — กินนอกบ้านและสังคม",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "recreation",
+            "items": [],
+            "label": "Recreation — สันทนาการ",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "subscriptions",
+            "items": [],
+            "label": "Lifestyle Subscriptions — สมาชิกเพื่อไลฟ์สไตล์",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "grooming",
+            "items": [],
+            "label": "Aesthetic & Grooming — ความงามและดูแลบุคลิก",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "clothing",
+            "items": [],
+            "label": "Clothing — เสื้อผ้า",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "hobbies",
+            "items": [],
+            "label": "Hobby & Gear — งานอดิเรกและอุปกรณ์",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "gifts",
+            "items": [],
+            "label": "Gifts & Relationships — ของขวัญและความสัมพันธ์",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": null,
+            "group_id": "explore",
+            "items": [],
+            "label": "Explore / Experiments — ทดลองและเรียนรู้",
+            "remaining_available": null,
+            "reserved_allocation": "0.00",
+            "usage_pct": null
+          },
+          {
+            "actual_paid": "0.00",
+            "budget_allocation": "12000.00",
+            "group_id": "discretionary_unassigned",
+            "items": [
+              {
+                "actual_paid": "0.00",
+                "beneficiary": "SELF",
+                "budget_allocation": "12000.00",
+                "portfolio": null,
+                "remaining_available": "12000.00",
+                "reserved_allocation": "0.00",
+                "subcategory": "Available to allocate — พร้อมแบ่งงบ",
+                "transactions": [],
+                "usage_pct": 0.0
+              }
+            ],
+            "label": "Unassigned discretionary — งบยืดหยุ่นที่ยังไม่แบ่ง",
+            "remaining_available": "12000.00",
+            "reserved_allocation": "0.00",
+            "usage_pct": 0.0
+          }
+        ],
+        "label": "Tier 3 — Quality of Life / Explore",
+        "remaining_available": "12000.00",
+        "reserved_allocation": "0.00",
+        "subtitle": "เพิ่มคุณภาพชีวิต ความสัมพันธ์ และความสุข",
+        "tier": "TIER_3",
+        "usage_pct": 0.0
+      }
+    ],
+    "unallocated_income": "63822.96",
+    "unknown_transactions": []
+  },
   "review_count": 0,
   "review_items": [],
-  "safe_to_spend": "85215.74",
+  "safe_to_spend": "75822.96",
   "safe_to_spend_formula": "max(0, income_baseline - committed_run_rate - sinking_required - discretionary_used)",
+  "sinking_annual_remaining": "103320.52",
+  "sinking_annual_reserved_ytd": "9392.78",
   "sinking_annualized_monthly_equivalent": "9392.78",
   "sinking_fund_summary": {
-    "funding_status": "FULLY_FUNDED",
+    "annual_remaining": "103320.52",
+    "annual_reserved_ytd": "9392.78",
+    "annual_target": "112713.30",
+    "funding_status": "FUNDING",
+    "monthly_remaining": "0.00",
+    "monthly_required": "9392.78",
+    "monthly_reserved": "9392.78",
+    "monthly_status": "FUNDED",
     "next_cycle_provision": "9392.78",
-    "remaining_to_fund": "0.00",
-    "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
-    "reserved_amount": "112713.30",
+    "remaining_to_fund": "103320.52",
+    "reservation_type": "INCOME_ALLOCATION",
+    "reserved_amount": "9392.78",
     "source_account": "SCB",
     "target_amount": "112713.30"
   },
-  "sinking_funding_status": "FULLY_FUNDED",
-  "sinking_remaining_to_fund": "0.00",
-  "sinking_required": "0.00",
-  "sinking_reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
-  "sinking_reserved": "112713.30",
+  "sinking_funding_status": "FUNDING",
+  "sinking_monthly_remaining": "0.00",
+  "sinking_monthly_required": "9392.78",
+  "sinking_monthly_reserved": "9392.78",
+  "sinking_monthly_status": "FUNDED",
+  "sinking_remaining_to_fund": "103320.52",
+  "sinking_required": "9392.78",
+  "sinking_reservation_type": "INCOME_ALLOCATION",
+  "sinking_reserved": "9392.78",
   "sinking_target_amount": "112713.30",
-  "suggested_transfer": "35000.00",
-  "transfer_signal": "READY",
-  "transfer_signal_reason": "You can transfer 35,000.00 THB to SCB while retaining the configured operating buffer, known near-term obligations, and 2,204.62 THB additional margin.",
+  "suggested_transfer": "20000.00",
+  "transfer_signal": "WAIT",
+  "transfer_signal_reason": "Keep cash in KTB for now.",
   "uncovered_near_term_obligations": "27370.16",
   "upcoming_annual_obligations": [
     {
-      "amount_remaining": "0.00",
-      "amount_reserved": "49820.40",
+      "amount_remaining": "45668.70",
+      "amount_reserved": "4151.70",
       "fund_name": "AIA Life Insurance Premium 1",
-      "funding_status": "FULLY_FUNDED",
+      "funding_status": "FUNDING",
       "monthly_provision": "4151.70",
       "portfolio": "PROTECT",
-      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+      "reservation_type": "INCOME_ALLOCATION",
       "target_amount": "49820.40",
       "target_date": "2027-05-28",
       "target_month": null,
       "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "0.00",
-      "amount_reserved": "17194.50",
+      "amount_remaining": "15761.62",
+      "amount_reserved": "1432.88",
       "fund_name": "AIA Life Insurance Premium 2",
-      "funding_status": "FULLY_FUNDED",
+      "funding_status": "FUNDING",
       "monthly_provision": "1432.88",
       "portfolio": "PROTECT",
-      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+      "reservation_type": "INCOME_ALLOCATION",
       "target_amount": "17194.50",
       "target_date": "2026-12-17",
       "target_month": null,
       "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "0.00",
-      "amount_reserved": "26978.40",
+      "amount_remaining": "24730.20",
+      "amount_reserved": "2248.20",
       "fund_name": "Land / Property Tax",
-      "funding_status": "FULLY_FUNDED",
+      "funding_status": "FUNDING",
       "monthly_provision": "2248.20",
       "portfolio": "PROTECT",
-      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+      "reservation_type": "INCOME_ALLOCATION",
       "target_amount": "26978.40",
       "target_date": "2027-06-30",
       "target_month": null,
       "work_mode": "SOURCE"
     },
     {
-      "amount_remaining": "0.00",
-      "amount_reserved": "18720.00",
+      "amount_remaining": "17160.00",
+      "amount_reserved": "1560.00",
       "fund_name": "The Terrace Tha Kham Common Area Fee",
-      "funding_status": "FULLY_FUNDED",
+      "funding_status": "FUNDING",
       "monthly_provision": "1560.00",
       "portfolio": "PROTECT",
-      "reservation_type": "VIRTUAL_TREASURY_ALLOCATION",
+      "reservation_type": "INCOME_ALLOCATION",
       "target_amount": "18720.00",
       "target_date": "2027-02-28",
       "target_month": 2,

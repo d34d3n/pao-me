@@ -3,7 +3,7 @@
     "2026-10 data: PARTIAL"
   ],
   "committed_and_essential_budget": "34000.00",
-  "committed_and_essential_used": "8150.00",
+  "committed_and_essential_used": "8195.00",
   "committed_categories": [
     {
       "actual_used": "0.00",
@@ -34,6 +34,12 @@
       "category_id": "transport",
       "label": "Transport & Mobility — การเดินทาง",
       "monthly_allocation": null
+    },
+    {
+      "actual_used": "45.00",
+      "category_id": "other",
+      "label": "Other Essential — รายจ่ายจำเป็นอื่น",
+      "monthly_allocation": null
     }
   ],
   "committed_run_rate": "34000.00",
@@ -41,7 +47,7 @@
     "label": "2026-10 data: PARTIAL",
     "reference": "Jun-Aug 2026 historical baseline",
     "status": "PARTIAL",
-    "transactions_observed": 1
+    "transactions_observed": 2
   },
   "data_period": {
     "historical_reference_months": [
@@ -54,8 +60,8 @@
   "discretionary_budget": "12000.00",
   "discretionary_used": "0.00",
   "essential_budget": "6000.00",
-  "essential_used": "0.00",
-  "generated_at": "2026-10-04T04:50:50.054727+00:00",
+  "essential_used": "45.00",
+  "generated_at": "2026-10-04T07:59:49.279388+00:00",
   "gov_liability": "0.00",
   "gov_receivable": "0.00",
   "historical_baseline": {
@@ -130,7 +136,7 @@
         "start": "2026-10-20"
       },
       "expected_day": 20,
-      "history_count": 1,
+      "history_count": 2,
       "obligation_name": "AIS Mobile",
       "provider": "AIS",
       "recurring": true,
@@ -154,7 +160,7 @@
       "status": "UPCOMING"
     }
   ],
-  "observed_spending": "8150.00",
+  "observed_spending": "8195.00",
   "operating_buffer": "83089.17",
   "operating_buffer_months": "1.50",
   "payment_alerts": [
@@ -196,7 +202,7 @@
     "classification_coverage_pct": 100.0,
     "coverage": "MAPPED",
     "insight": "Most current mapped spending is Protect-oriented / เงินใช้ในงวดนี้ที่ระบุพอร์ตได้ส่วนใหญ่เป็นการปกป้องฐานชีวิต",
-    "known_portfolio_amount": "8150.00",
+    "known_portfolio_amount": "8195.00",
     "matrix": [
       {
         "cells": {
@@ -235,11 +241,11 @@
         "work_mode": "SOURCE"
       }
     ],
-    "matrix_unknown_amount": "0.00",
+    "matrix_unknown_amount": "45.00",
     "period": "2026-10",
     "portfolios": [
       {
-        "amount": "8150.00",
+        "amount": "8195.00",
         "guidance_max": 70,
         "guidance_min": 50,
         "portfolio": "PROTECT",
@@ -278,17 +284,24 @@
         "source": "slip",
         "source_id": 99,
         "work_mode": "PARTNER"
+      },
+      {
+        "amount": "45.00",
+        "portfolio": "PROTECT",
+        "source": "slip",
+        "source_id": 109,
+        "work_mode": null
       }
     ],
-    "total_outflows": "8150.00",
+    "total_outflows": "8195.00",
     "unknown_amount": "0.00"
   },
   "remaining_margin_after_transfer": "3115.45",
   "resource_plan": {
     "income_baseline": "119215.74",
     "insights": [
-      "Tier 1 uses 6.8% of planned income / Tier 1 ใช้ 6.8% ของรายได้ตามแผน",
-      "Family support represents 100.0% of Tier 1 / สนับสนุนครอบครัวคิดเป็น 100.0% ของ Tier 1",
+      "Tier 1 uses 6.9% of planned income / Tier 1 ใช้ 6.9% ของรายได้ตามแผน",
+      "Family support represents 99.5% of Tier 1 / สนับสนุนครอบครัวคิดเป็น 99.5% ของ Tier 1",
       "฿63822.96 remains unallocated for future, capability or quality-of-life choices / ยังมีงบไม่ได้แบ่งสำหรับอนาคต ศักยภาพ หรือคุณภาพชีวิต"
     ],
     "official_transactions": [],
@@ -383,7 +396,7 @@
     ],
     "tiers": [
       {
-        "actual_paid": "8150.00",
+        "actual_paid": "8195.00",
         "budget_allocation": "34000.00",
         "groups": [
           {
@@ -397,10 +410,37 @@
             "usage_pct": null
           },
           {
-            "actual_paid": "0.00",
+            "actual_paid": "45.00",
             "budget_allocation": null,
             "group_id": "food",
-            "items": [],
+            "items": [
+              {
+                "actual_paid": "45.00",
+                "beneficiary": "SELF",
+                "budget_allocation": null,
+                "portfolio": "PROTECT",
+                "remaining_available": null,
+                "reserved_allocation": "0.00",
+                "subcategory": "Market / Ready-to-eat Food",
+                "transactions": [
+                  {
+                    "amount": "45.00",
+                    "beneficiary": "SELF",
+                    "date": "2026-10-04",
+                    "financial_treatment": "CONSUMPTION",
+                    "label": "WARAPORN CHAR",
+                    "original_category": "Food & Daily Living",
+                    "original_subcategory": "Market / Ready-to-eat Food",
+                    "portfolio": "PROTECT",
+                    "source": "slip",
+                    "source_id": 109,
+                    "tier": "TIER_1",
+                    "user_confirmed": true
+                  }
+                ],
+                "usage_pct": null
+              }
+            ],
             "label": "Food & Daily Living — อาหารและชีวิตประจำวัน",
             "remaining_available": null,
             "reserved_allocation": "0.00",
@@ -448,8 +488,11 @@
                     "label": "(IORSWT)                            004-1022273874",
                     "original_category": "Health & Care",
                     "original_subcategory": "Elder Care",
+                    "portfolio": "PROTECT",
                     "source": "slip",
-                    "source_id": 99
+                    "source_id": 99,
+                    "tier": "TIER_1",
+                    "user_confirmed": false
                   }
                 ],
                 "usage_pct": 101.9
@@ -506,11 +549,11 @@
           }
         ],
         "label": "Tier 1 — Subsistence / Protect",
-        "remaining_available": "25850.00",
+        "remaining_available": "25805.00",
         "reserved_allocation": "0.00",
         "subtitle": "อยู่ได้ ทำงานได้ ดูแลครอบครัวได้",
         "tier": "TIER_1",
-        "usage_pct": 24.0
+        "usage_pct": 24.1
       },
       {
         "actual_paid": "0.00",
@@ -904,7 +947,7 @@
         "start": "2026-10-20"
       },
       "expected_day": 20,
-      "history_count": 1,
+      "history_count": 2,
       "obligation_name": "AIS Mobile",
       "provider": "AIS",
       "recurring": true,
